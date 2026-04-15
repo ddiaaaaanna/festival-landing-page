@@ -1,0 +1,466 @@
+body,
+h1,
+p,
+h5 {
+  margin: 0;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+/* HEADER */
+
+header {
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #222222;
+  text-decoration: none;
+}
+
+/* NAV BAR FOR HEADER AND FOOTER */
+nav ul li a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+nav ul li a:hover {
+  font-size: 14.5px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.listHead {
+  color: #eb5757;
+}
+
+.navlistItem {
+  color: #222222;
+}
+
+/* HERO */
+
+.hero {
+  background-image: url("./img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  filter: drop-shadow(0 4px 4px #00000040);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.heroButtons button {
+  padding: 10px 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 10px;
+  border: none;
+}
+
+.herobuttonPink {
+  background-color: #eb5757;
+  color: #ffffff;
+}
+
+.herobuttonWhite {
+  color: #eb5757;
+  background-color: #ffffff;
+}
+
+.heroButtons button:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* SUBHERO */
+
+.subHero {
+  background-color: #eb5757;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subHero p {
+  width: 59%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ARTIST SECTION */
+
+.artistSection {
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+/* TITLE FOR ARTISTS, GALLERY, TICKETS, LOCATION, CONTACT */
+section h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px 0 15px;
+}
+
+/* SUBTITLE FOR ARTISTS, GALLERY, TICKETS, LOCATION, CONTACT */
+section p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 20px 0;
+  width: 70%;
+  text-align: center;
+}
+
+/* SECTION LINE */
+.sectionLine {
+  width: 31px;
+  height: 5px;
+  background-color: #eb5757;
+}
+
+.artistCards {
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.artistCard {
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  width: 250px;
+  padding: 20px;
+}
+
+.artistCards img {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  filter: drop-shadow(0 4px 4px #00000040);
+}
+
+.artistCards h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
+.artistCards p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  width: 70%;
+}
+
+/* GALLERY SECTION */
+
+.gallery {
+  background-color: #eb57571a;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.galleryImages img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.galleryImages {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+/* TICKETS SECTION */
+
+.tickets {
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.ticketBoxes {
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ticketBox {
+  align-items: center;
+  flex-direction: column;
+  margin: 0 40px;
+  width: 290px;
+  padding: 40px;
+  filter: drop-shadow(0 0 40px #0000000d);
+  background-color: #ffffff;
+}
+
+.ticketBox h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.ticketboxLine {
+  width: 370px;
+  height: 1px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 20px;
+}
+
+.ticketBox p {
+  width: 90%;
+}
+
+.ticketBox h4 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #222222;
+  margin-top: 5px;
+}
+
+.ticketBox span {
+  font-size: 20px;
+  color: rgba(235, 87, 87, 1);
+}
+
+.ticketBox button {
+  padding: 10px 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 10px;
+  border: none;
+}
+
+.ticketBox button:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* LOCATION SECTION */
+
+.location {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: rgba(235, 87, 87, 0.1);
+}
+
+.location img {
+  margin: 20px 0;
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* CONTACT FORM SECTION */
+
+.contactForm {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 60vh;
+}
+
+.contactForm label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.contactForm input {
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  height: 30px;
+  width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.formButton {
+  justify-content: center;
+}
+
+.contactForm button {
+  padding: 10px 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 10px;
+  border: none;
+}
+
+.contactForm button:hover {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(34, 34, 34, 1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  header,
+  footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+
+  .hero {
+    justify-content: space-evenly;
+  }
+
+  .heroButtons button {
+    height: 60px;
+    width: 250px;
+    margin: 20px 0;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+  }
+
+  .subHero p {
+    width: 100%;
+  }
+
+  .artistSection {
+    height: 165vh;
+  }
+
+  .gallery {
+    height: 205vh;
+  }
+
+  .ticketBoxes {
+    flex-direction: column;
+  }
+
+  .tickets {
+    height: 100vh;
+  }
+
+  .ticketBox {
+    margin: 0 20px 20px;
+  }
+
+  .location {
+    height: 45vh;
+  }
+
+  .location img {
+    width: 90%;
+  }
+
+  .contactForm {
+    height: 35vh;
+  }
+
+  .location h3,
+  .confactForm h3 {
+    margin: 10px !important;
+  }
+
+  footer {
+    height: 15vh;
+  }
+}
