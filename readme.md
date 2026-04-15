@@ -6,6 +6,8 @@ A responsive festival landing page built with **HTML and CSS**.
 
 ## Live Demo
 
+[View Live Project](https://festival-landing-page-lemon.vercel.app/)
+
 ---
 
 ## Preview
